@@ -12,5 +12,6 @@ class CharacterSerializer(serializers.ModelSerializer):
             "name",
             "status",
             "species",
-            "gender"
+            "gender",
+            "image"
         )
